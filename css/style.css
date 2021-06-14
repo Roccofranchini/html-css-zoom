@@ -4,20 +4,54 @@
     padding: 0;
 }
 
+body {
+    font-family: sans-serif;
+}
+
 .container {
     max-width: 1200px;
     margin: 0 auto;
 }
+
+.txt-white {
+    color: white;
+}
+
+.flex {
+    display: flex;
+}
+
+.j-end {
+    justify-content: flex-end;
+}
+
+/* Header */
 
 header {
     height: 80px;
     background-color: black;
 }
 
+/* Header */
+
 .main-content {
     height: calc(100vh - 160px);
     overflow: auto;
 }
+
+.header-btns {
+    
+}
+
+.header-tools {
+    text-decoration: none;
+    padding: 5px 5px;
+    background-color: #4a4a4a;
+    border-radius: 5px;
+    margin: 10px 10px 10px 0;
+}
+
+/* footer */
 
 footer {
     height: 80px;
