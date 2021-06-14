@@ -9,7 +9,7 @@ body {
 }
 
 .container {
-    max-width: 1200px;
+    max-width: 1300px;
     margin: 0 auto;
 }
 
@@ -25,22 +25,23 @@ body {
     justify-content: flex-end;
 }
 
+.j-cntr {
+    justify-content: center;
+}
+
+.ai-end {
+    align-items: flex-end;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
 /* Header */
 
 header {
-    height: 80px;
+    height: 60px;
     background-color: black;
-}
-
-/* Header */
-
-.main-content {
-    height: calc(100vh - 160px);
-    overflow: auto;
-}
-
-.header-btns {
-    
 }
 
 .header-tools {
@@ -51,9 +52,33 @@ header {
     margin: 10px 10px 10px 0;
 }
 
+/* Main */
+
+.main-content {
+    height: calc(100vh - 160px);
+    overflow: auto;
+    background-color: black;
+}
+
+.main-content .container .cella{
+    height: 146px;
+    width: 247px;
+    margin: 4px;
+    background-image: url(https://picsum.photos/246/146);
+    background-position: center;
+    background-size: cover;
+}
+
+.user-info {
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
 /* footer */
 
 footer {
-    height: 80px;
+    height: 100px;
     background-color: black;
 }
