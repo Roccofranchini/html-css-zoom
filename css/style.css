@@ -9,3 +9,17 @@
     margin: 0 auto;
 }
 
+header {
+    height: 80px;
+    background-color: black;
+}
+
+.main-content {
+    height: calc(100vh - 160px);
+    overflow: auto;
+}
+
+footer {
+    height: 80px;
+    background-color: black;
+}
