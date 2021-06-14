@@ -8,6 +8,10 @@ body {
     font-family: sans-serif;
 }
 
+a:hover {
+    filter: brightness(0.5);
+}
+
 .container {
     max-width: 1400px;
     margin: 0 auto;
@@ -16,6 +20,15 @@ body {
 .txt-white {
     color: white;
 }
+
+.txt-green {
+    color: green;
+}
+
+.txt-red {
+    color: red;
+}
+
 
 .txt-decoration {
     text-decoration: none;
@@ -100,11 +113,9 @@ header {
 footer {
     height: 100px;
     background-color: #222222;
+    padding: 0 0 0 10px;
 }
 
-footer .container {
-    height: 100%;
-}
 
 .ftr-icon {
     height: 100%;
@@ -116,8 +127,16 @@ footer .container {
     padding: 10px 0;
 }
 
-
 nav {
     height: 100%;
-    padding-top: 10px;
+    /* padding-top: 10px; */
+}
+
+.right-nav {
+    background-color: #4a4a4a;
+}
+
+.ftr-btn {
+    padding: 40px 0;
+
 }
